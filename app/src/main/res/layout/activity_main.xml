@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
-        android:text="Weight(kg)"
-        android:textSize="30dp" />
+        android:text="@string/txtView_weight"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/editText_weight"
@@ -24,7 +24,9 @@
         android:layout_gravity="center_horizontal"
         android:ems="5"
         android:textAlignment="center"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal"
+        android:autofillHints="Enter your weight amount in kilograms"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/txtView_height"
@@ -32,8 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
-        android:text="Height(cm)"
-        android:textSize="30dp" />
+        android:text="@string/txtView_height"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/editText_height"
@@ -42,14 +44,17 @@
         android:layout_gravity="center_horizontal"
         android:ems="5"
         android:textAlignment="center"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal"
+        android:autofillHints="Enter your height amount in centimeters"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/txtView_bmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BMI"
+        android:text="@string/txtView_BMI_result"
         android:layout_marginTop="80dp"
         android:textSize="24sp"
         android:textAlignment="center" />
+
 </LinearLayout>

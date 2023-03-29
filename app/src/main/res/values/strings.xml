@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMI_calc</string>
+    <string name="app_name">BMI App</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -7,6 +7,10 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txtView_weight">Weight(kg)</string>
+    <string name="txtView_height">Height(cm)</string>
+    <string name="txtView_BMI_result">BMI</string>
+
+    <string name="button_BMI_calc">BMI Calculator</string>
+    <string name="button_Cals_calc">Calories Calculator</string>
 </resources>

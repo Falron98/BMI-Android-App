@@ -20,7 +20,7 @@ public class StartingScreen extends AppCompatActivity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                startActivity(new Intent(StartingScreen.this, MainActivity.class));
+                startActivity(new Intent(StartingScreen.this, Buttons.class));
                 finish();}
         }, 3000);
     }

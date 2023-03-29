@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         weightEditText.addTextChangedListener(weightEditTextWatcher);
         heightEditText.addTextChangedListener(heightEditTextWatcher);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 
