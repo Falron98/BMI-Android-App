@@ -13,4 +13,13 @@
 
     <string name="button_BMI_calc">BMI Calculator</string>
     <string name="button_Cals_calc">Calories Calculator</string>
+
+    <string name="txtView_Gender">Select gender:</string>
+    <string name="txtView_Age">Age:</string>
+    <string-array name="spinner_Gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="txtView_BMR">BMR</string>
+
 </resources>

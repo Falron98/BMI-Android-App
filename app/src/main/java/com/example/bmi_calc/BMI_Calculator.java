@@ -2,29 +2,18 @@ package com.example.bmi_calc;
 
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.View;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.example.bmi_calc.databinding.ActivityMainBinding;
-
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import java.text.NumberFormat;
+import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity {
+public class BMI_Calculator extends AppCompatActivity {
     EditText weightEditText, heightEditText;
     TextView bmiTextView;
 
@@ -42,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         weightEditText.addTextChangedListener(weightEditTextWatcher);
         heightEditText.addTextChangedListener(heightEditTextWatcher);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
     }
 

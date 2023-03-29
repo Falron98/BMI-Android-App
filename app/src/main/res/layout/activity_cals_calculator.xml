@@ -6,14 +6,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BMI_Calculator">
+    tools:context=".Cals_Calculator">
+
+    <TextView
+        android:id="@+id/txtView_Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="@string/txtView_Gender"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinner_Gender"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/txtView_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtView_Age"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:ems="5"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/txtView_weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:text="@string/txtView_weight"
         android:textSize="30sp" />
 
@@ -25,7 +59,6 @@
         android:ems="5"
         android:textAlignment="center"
         android:inputType="numberDecimal"
-        android:autofillHints="Enter your weight amount in kilograms"
         tools:ignore="LabelFor" />
 
     <TextView
@@ -33,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:text="@string/txtView_height"
         android:textSize="30sp" />
 
@@ -45,14 +78,14 @@
         android:ems="5"
         android:textAlignment="center"
         android:inputType="numberDecimal"
-        android:autofillHints="Enter your height amount in centimeters"
         tools:ignore="LabelFor" />
 
+
     <TextView
-        android:id="@+id/txtView_bmi"
+        android:id="@+id/txtView_BMR_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtView_BMI_result"
+        android:text="@string/txtView_BMR"
         android:layout_marginTop="80dp"
         android:textSize="24sp"
         android:textAlignment="center" />
