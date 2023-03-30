@@ -13,6 +13,7 @@
 
     <string name="button_BMI_calc">BMI Calculator</string>
     <string name="button_Cals_calc">Calories Calculator</string>
+    <string name="button_Recipes">Recipes</string>
 
     <string name="txtView_Gender">Select gender:</string>
     <string name="txtView_Age">Age:</string>
@@ -21,5 +22,22 @@
         <item>Female</item>
     </string-array>
     <string name="txtView_BMR">BMR</string>
+
+    <string-array name="list_of_recipes">
+        <item>Spaghetti Carbonara</item>
+        <item>Lasagne</item>
+    </string-array>
+
+    <string-array name="recipe_ingredients">
+        <item>454 grams spaghetti\n118 milliliters pancetta or bacon, diced\n4 large eggs\n236 milliliters freshly grated Parmesan cheese\n118 milliliters heavy cream\nSalt and freshly ground black pepper</item>
+        <item>454 grams lasagna noodles\n454 grams ground beef\n227 grams Italian sausage\n1 large onion, chopped\n2 cloves garlic, minced\n1 (794 gram) can crushed tomatoes\n2 (170 gram) cans tomato paste\n2 (411 gram) cans tomato sauce\n118 milliliters water\n30 milliliters white sugar\n1 1/2 teaspoons dried basil leaves\n1/2 teaspoon fennel seeds\n1 teaspoon Italian seasoning\n1 tablespoon salt\n1/4 teaspoon ground black pepper\n4 tablespoons chopped fresh parsley\n340 grams ricotta cheese\n1 egg\n1/2 teaspoon salt\n340 grams mozzarella cheese, sliced\n88 milliliters grated Parmesan cheese</item>
+    </string-array>
+
+    <string-array name="recipe_directions">
+        <item>1. Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8 minutes. Drain the spaghetti in a colander.\n\n2. In a large sauté pan, cook the pancetta over medium heat until crispy, about 8 minutes. Remove the pancetta with a slotted spoon and transfer to a paper towel-lined plate.\n\n3. In a medium bowl, whisk together the eggs, Parmesan cheese, and heavy cream.\n\n4. Add the cooked spaghetti to the pan with the pancetta and toss to combine. Remove the pan from the heat and pour the egg mixture over the spaghetti. Toss quickly to coat the spaghetti evenly and serve immediately.</item>
+        <item>1. Preheat oven to 375 degrees F (190 degrees C). Bring a large pot of lightly salted water to a boil. Add lasagna noodles and cook for 8 to 10 minutes or until al dente; drain.\n\n2. In a skillet over medium heat, cook the beef, sausage, onion, and garlic until brown. Add crushed tomatoes, tomato paste, tomato sauce, and water; stir. Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.\n\n3. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.\n\n4. To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.\n\n5. Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving.</item>
+    </string-array>
+
+
 
 </resources>
