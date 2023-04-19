@@ -14,6 +14,7 @@
     <string name="button_BMI_calc">BMI Calculator</string>
     <string name="button_Cals_calc">Calories Calculator</string>
     <string name="button_Recipes">Recipes</string>
+    <string name="button_Quiz">Quiz</string>
 
     <string name="txtView_Gender">Select gender:</string>
     <string name="txtView_Age">Age:</string>
@@ -22,6 +23,10 @@
         <item>Female</item>
     </string-array>
     <string name="txtView_BMR">BMR</string>
+
+    <string name="quiz_finish_title">Quiz completed</string>
+    <string name="quiz_finish_score">Your score is {0}/{1} questions! Congratulations!</string>
+    <string name="quiz_finish_button">Restart</string>
 
     <string-array name="list_of_recipes">
         <item>Spaghetti Carbonara</item>
@@ -38,6 +43,28 @@
         <item>1. Preheat oven to 375 degrees F (190 degrees C). Bring a large pot of lightly salted water to a boil. Add lasagna noodles and cook for 8 to 10 minutes or until al dente; drain.\n\n2. In a skillet over medium heat, cook the beef, sausage, onion, and garlic until brown. Add crushed tomatoes, tomato paste, tomato sauce, and water; stir. Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.\n\n3. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.\n\n4. To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13 inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.\n\n5. Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving.</item>
     </string-array>
 
+    <string-array name="questions">
+        <item>Whats name of company that created AI Chatbot?</item>
+        <item>Whats 2+2?</item>
+        <item>Whats 3*3?</item>
+        <item>Whats 1+1?</item>
+        <item>Whats 2/2?</item>
+    </string-array>
 
+    <string-array name="answers">
+        <item>Google,Instagram,Facebook,OpenAI</item>
+        <item>4,5,3,10</item>
+        <item>27,13,6,9</item>
+        <item>1,5,2,4</item>
+        <item>3,0,1,4</item>
+    </string-array>
+
+    <string-array name="good_answer">
+        <item>OpenAI</item>
+        <item>4</item>
+        <item>9</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
 
 </resources>
