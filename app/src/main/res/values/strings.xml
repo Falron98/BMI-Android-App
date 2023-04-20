@@ -48,27 +48,30 @@
     </string-array>
 
     <string-array name="questions">
-        <item>Whats name of company that created AI Chatbot?</item>
-        <item>Whats 2+2?</item>
-        <item>Whats 3*3?</item>
-        <item>Whats 1+1?</item>
-        <item>Whats 2/2?</item>
+        <item>Which of the following foods is a good source of protein?</item>
+        <item>Which type of fat is considered the healthiest?</item>
+        <item>What is the recommended daily intake of fruits and vegetables for adults?</item>
+        <item>What is the recommended daily intake of water for adults?</item>
+        <item>Which of the following is a good source of complex carbohydrates?</item>
+        <item>Which type of food should be limited in a healthy diet?</item>
     </string-array>
 
     <string-array name="answers">
-        <item>Google,Instagram,Facebook,OpenAI</item>
-        <item>4,5,3,10</item>
-        <item>27,13,6,9</item>
-        <item>1,5,2,4</item>
-        <item>3,0,1,4</item>
+        <item>White bread,French fries,Broccoli,Chicken breast</item>
+        <item>Saturated fat,Trans fat,Monounsaturated fat,Polyunsaturated fat</item>
+        <item>1–2 servings,3–4 servings,5–6 servings,7–8 servings</item>
+        <item>1–2 cups,3–4 cups,6–8 cups,10–12 cups</item>
+        <item>White rice,Whole wheat bread,Potato chips,Candy</item>
+        <item>Fruits and vegetables,Whole grains,Processed foods,Lean proteins</item>
     </string-array>
 
     <string-array name="good_answer">
-        <item>OpenAI</item>
-        <item>4</item>
-        <item>9</item>
-        <item>2</item>
-        <item>1</item>
+        <item>Chicken breast</item>
+        <item>Polyunsaturated fat</item>
+        <item>5–6 servings</item>
+        <item>6–8 cups</item>
+        <item>Whole wheat bread</item>
+        <item>Processed foods</item>
     </string-array>
 
 </resources>
