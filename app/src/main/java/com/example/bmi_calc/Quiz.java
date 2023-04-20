@@ -65,13 +65,15 @@ public class Quiz extends AppCompatActivity {
             questions_map.put(question, new String[]{TextUtils.join("\n", answers), good_answer});
         }
 
-        ans1.setOnClickListener(v -> next_question());
-
-        ans2.setOnClickListener(v -> next_question());
-
-        ans3.setOnClickListener(v -> next_question());
-
-        ans4.setOnClickListener(v -> next_question());
+        for (Button button : Arrays.asList(ans1, ans2, ans3, ans4)) {
+            button.setOnClickListener(v -> {
+                if (Objects.equals(questions_map.get(questions_array[random_number])[1], button.getText().toString())){
+                    score += 1;
+                }
+                questions_map.remove(questions_array[random_number]);
+                next_question();
+            });
+        }
 
         res.setOnClickListener(v -> reset_quiz());
 
@@ -124,7 +126,6 @@ public class Quiz extends AppCompatActivity {
             ans2.setText(answers[numberList.get(1)]);
             ans3.setText(answers[numberList.get(2)]);
             ans4.setText(answers[numberList.get(3)]);
-            questions_map.remove(questions_array[random_number]);
 
         }
 

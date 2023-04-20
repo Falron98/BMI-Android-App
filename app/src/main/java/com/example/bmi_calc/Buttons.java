@@ -9,6 +9,7 @@ import android.widget.Button;
 public class Buttons extends AppCompatActivity {
 
     private Button bmi_move;
+    private Button bmi_results_move;
     private Button cls_move;
     private Button rcp_move;
     private Button quiz_move;
@@ -19,11 +20,17 @@ public class Buttons extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buttons);
         bmi_move = findViewById(R.id.button_BMI_Calculator);
+        bmi_results_move = findViewById(R.id.button_bmi_results);
         cls_move = findViewById(R.id.button_Cls_Calculator);
         rcp_move = findViewById(R.id.button_Recipes);
         quiz_move = findViewById(R.id.button_Quiz);
+
         bmi_move.setOnClickListener(view -> {
             Intent intent = new Intent(Buttons.this, BMI_Calculator.class);
+            startActivity(intent);
+        });
+        bmi_results_move.setOnClickListener(view -> {
+            Intent intent = new Intent(Buttons.this, BMI_Results.class);
             startActivity(intent);
         });
         cls_move.setOnClickListener(view -> {

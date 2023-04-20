@@ -12,9 +12,13 @@
         android:theme="@style/Theme.BMI_calc"
         tools:targetApi="31">
         <activity
-            android:name=".Quiz"
+            android:name=".BMI_Results"
             android:exported="false"
             android:parentActivityName=".Buttons"  />
+        <activity
+            android:name=".Quiz"
+            android:exported="false"
+            android:parentActivityName=".Buttons" />
         <activity
             android:name=".Recipe"
             android:exported="false"

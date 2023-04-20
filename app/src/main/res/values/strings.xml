@@ -10,11 +10,13 @@
     <string name="txtView_weight">Weight(kg)</string>
     <string name="txtView_height">Height(cm)</string>
     <string name="txtView_BMI_result">BMI</string>
+    <string name="button_BMI_save">Save Result</string>
 
     <string name="button_BMI_calc">BMI Calculator</string>
     <string name="button_Cals_calc">Calories Calculator</string>
     <string name="button_Recipes">Recipes</string>
     <string name="button_Quiz">Quiz</string>
+    <string name="button_BMI_results">BMI Results</string>
 
     <string name="txtView_Gender">Select gender:</string>
     <string name="txtView_Age">Age:</string>
@@ -27,6 +29,8 @@
     <string name="quiz_finish_title">Quiz completed</string>
     <string name="quiz_finish_score">Your score is {0}/{1} questions! Congratulations!</string>
     <string name="quiz_finish_button">Restart</string>
+
+    <string name="graph_title">BMI Results</string>
 
     <string-array name="list_of_recipes">
         <item>Spaghetti Carbonara</item>

@@ -22,10 +22,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:ems="5"
-        android:textAlignment="center"
-        android:inputType="numberDecimal"
         android:autofillHints="Enter your weight amount in kilograms"
+        android:ems="5"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
         tools:ignore="LabelFor" />
 
     <TextView
@@ -42,19 +42,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:ems="5"
-        android:textAlignment="center"
-        android:inputType="numberDecimal"
         android:autofillHints="Enter your height amount in centimeters"
+        android:ems="5"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
         tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/txtView_bmi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtView_BMI_result"
         android:layout_marginTop="80dp"
-        android:textSize="24sp"
+        android:text="@string/txtView_BMI_result"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:baselineAligned="false"
+        android:text="@string/button_BMI_save"
         android:textAlignment="center" />
 
 </LinearLayout>
