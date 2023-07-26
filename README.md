@@ -1,7 +1,6 @@
 # BMI Android App
 
 Author: Bartosz Krystowski
-Index: s19545
 
 # Splash screen
 ![Splash_screen](https://github.com/Falron98/PAMO_project/blob/master/Splash_screen.png?raw=true)
