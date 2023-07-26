@@ -1,4 +1,4 @@
-# PAMO_project
+# BMI Android App
 
 Author: Bartosz Krystowski
 Index: s19545
